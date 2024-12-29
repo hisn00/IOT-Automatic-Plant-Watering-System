@@ -1,57 +1,41 @@
-Project Title:
 
-IOT Automatic Plant Watering System
+# IoT Automatic Plant Watering System
 
-2. Description:
+This project demonstrates an IoT-based automatic plant watering system using a soil moisture sensor and a relay module to control a water pump. The system checks the soil moisture levels and activates the pump when the soil is dry, ensuring the plant is watered automatically.
 
-This project simulates an IoT-powered automatic plant watering system using Arduino and various sensors. The system monitors the moisture level of the soil and, when necessary, automatically waters the plants. The project uses sensors like a temperature sensor (DHT11 or TMP36) and integrates with a watering pump to simulate real-world IoT automation.
+## Components Used:
+- **Arduino Uno**
+- **Soil Moisture Sensor**
+- **Relay Module**
+- **Water Pump**
+- **Jumper wires**
+- **Breadboard**
+- **Power Source**
 
-3. Components Used:
+## How It Works:
+1. The **soil moisture sensor** is placed in the soil to measure its moisture content.
+2. The sensor's value is read by the **Arduino Uno**.
+3. If the moisture level is below a threshold (indicating dry soil), the **relay module** is triggered to turn on the water pump, watering the plant.
+4. Once the soil reaches a sufficient moisture level, the water pump is turned off.
 
-Arduino Uno
+## Circuit Diagram:
+You can view the complete circuit diagram and simulation in **Tinkercad**. The soil moisture sensor is connected to an analog input pin, and the relay module is connected to a digital pin on the Arduino.
 
-DHT11 or TMP36 temperature sensor
+## How to Use:
+1. Clone this repository to your local machine or directly download the files.
+2. Open the `plant_watering.ino` file in the **Arduino IDE**.
+3. Connect your **Arduino board** and upload the code.
+4. Set up the hardware according to the circuit diagram in the Tinkercad simulation or physical setup.
+5. Monitor the watering system's behavior based on the moisture level.
 
-Relay Module (for controlling the watering system)
+## License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Water Pump (or DC Motor for simulation)
+## Acknowledgments:
+- Inspired by IoT and automation projects.
+- Tinkercad for the circuit simulation.
+- Arduino for making DIY electronics easy and fun.
 
-Jumper Wires
-
-4. Project Objective:
-
-Build a simple, automated irrigation system that uses temperature data from a sensor to control the watering of a plant.
-
-
-5. How to Use:
-
-Clone the repository to your local machine.
-
-Set up the Arduino circuit on Tinkercad.
-
-Upload the provided Arduino code to your Arduino Uno.
-
-Use the Tkinter GUI to monitor and control the watering system.
-
-
-6. Installation Instructions:
-
-For Arduino:
-
-Install the Arduino IDE on your computer.
-
-Set up the circuit on Tinkercad and upload the Arduino code to your Arduino board.
-
-For Python:
-
-Install Python and required libraries: Tkinter for GUI, PySerial for communication with Arduino.
-
-Clone this repository and run the app.py file.
-
-
-7. License:
-
-MIT License
 
 
 
