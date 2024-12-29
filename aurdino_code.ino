@@ -5,7 +5,6 @@ import time
 # Setup serial communication (adjust the port and baudrate as per your setup)
 arduino = serial.Serial('COM3', 9600)  # Replace 'COM3' with the correct port (Windows) or '/dev/ttyUSB0' (Linux)
 time.sleep(2)  # Give time for the Arduino to initialize
-
 # Function to update sensor values from Arduino
 def update_sensor_data():
     arduino_data = arduino.readline().decode('utf-8').strip()  # Read data from Arduino
