@@ -1,28 +1,41 @@
-import tkinter as tk
-import serial
-import time
+// Arduino Code to Read Temperature and Control Motor
+#include <DHT.h>
 
-# Setup serial communication (adjust the port and baudrate as per your setup)
-arduino = serial.Serial('COM3', 9600)  # Replace 'COM3' with the correct port (Windows) or '/dev/ttyUSB0' (Linux)
-time.sleep(2)  # Give time for the Arduino to initialize
+#define DHTPIN 2      // Pin where the DHT sensor is connected
+#define DHTTYPE DHT11 // DHT 11 sensor type
+#define MOTOR_PIN 8   // Pin to control the motor
 
-# Function to update sensor values from Arduino
-def update_sensor_data():
-    arduino_data = arduino.readline().decode('utf-8').strip()  # Read data from Arduino
-    sensor_data.set(arduino_data)  # Update the label with the data from Arduino
-    root.after(2000, update_sensor_data)  # Update every 2 seconds
+DHT dht(DHTPIN, DHTTYPE);
 
-# Create the main window
-root = tk.Tk()
-root.title("IoT Automatic Plant Watering System")
+void setup() {
+  Serial.begin(9600); // Initialize Serial Monitor
+  dht.begin();        // Start DHT sensor
+  pinMode(MOTOR_PIN, OUTPUT); // Set motor pin as output
+}
 
-# Create a label to display sensor data
-sensor_data = tk.StringVar()
-label = tk.Label(root, textvariable=sensor_data, font=("Arial", 14), padx=20, pady=20)
-label.pack()
+void loop() {
+  float temp = dht.readTemperature(); // Read temperature
 
-# Start the sensor data update function
-update_sensor_data()
+  // Check if sensor reading is valid
+  if (isnan(temp)) {
+    Serial.println("Failed to read from DHT sensor!");
+    return;
+  }
 
-# Run the Tkinter event loop
-root.mainloop()
+  Serial.print("Temperature: ");
+  Serial.print(temp);
+  Serial.println(" *C");
+
+  // Motor control based on temperature
+  if (temp > 30.0) {
+    digitalWrite(MOTOR_PIN, HIGH); // Turn on motor
+    Serial.println("Motor ON");
+  } else {
+    digitalWrite(MOTOR_PIN, LOW); // Turn off motor
+    Serial.println("Motor OFF");
+  }
+
+  delay(2000); // Wait 2 seconds before next reading
+}
+
+
