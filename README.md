@@ -14,9 +14,10 @@
 
 ## 📷 **Screenshots**  
 ### Circuit Simulation  
-![Circuit Diagram](path_to_circuit_screenshot.png)  
-### Python GUI  
-![Python GUI](path_to_gui_screenshot.png)  
+https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Components.png?raw=true
+ 
+### Python GUI 
+https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Main%20GUI.png?raw=true 
 
 ---
 
