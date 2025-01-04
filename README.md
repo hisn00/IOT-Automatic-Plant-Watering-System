@@ -83,4 +83,4 @@ This project is licensed under the **MIT License**.
 
 **Clone this repo and start monitoring smartly!**  
 ```bash
-git clone https://github.com/yourusername/IoT_Water_Monitoring_System.git
+git clone https://github.com/hisn00/IOT-Automatic-Plant-Watering-System
