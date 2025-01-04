@@ -75,18 +75,18 @@ The Python code:
 
 ---
 
-Screenshots and Visuals:
+### Screenshots and Visuals:
 
-Tinkercad Simulation:Description: This screenshot showcases the wiring and components used in the Tinkercad simulation. It includes the Arduino Uno, soil moisture sensor, TMP36 temperature sensor, relay and DC motor providing a visual representation of how everything is connected.
+# Tinkercad Simulation:Description: This screenshot showcases the wiring and components used in the Tinkercad simulation. It includes the Arduino Uno, soil moisture sensor, TMP36 temperature sensor, relay and DC motor providing a visual representation of how everything is connected.
 
 https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Tinkercad%20Simulation.png?raw=true
 
 
-Circuit Diagram:Description: This screenshot shows the Tinkercad simulation of the automatic plant watering system. The Arduino Uno is connected to the soil moisture sensor, temperature sensor, and DC motor, which represents the water pump. The system is monitoring the soil moisture and is ready to activate the DC motor when the moisture level is low.
+# Circuit Diagram:Description: This screenshot shows the Tinkercad simulation of the automatic plant watering system. The Arduino Uno is connected to the soil moisture sensor, temperature sensor, and DC motor, which represents the water pump. The system is monitoring the soil moisture and is ready to activate the DC motor when the moisture level is low.
 
 https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Components.png?raw=true
 
-Python GUI:Description: Here we see the Python Tkinter interface displaying the real-time soil moisture and temperature readings. The GUI is connected to the Arduino via serial communication, allowing users to monitor the system’s performance and adjust parameters if necessary.
+# Python GUI:Description: Here we see the Python Tkinter interface displaying the real-time soil moisture and temperature readings. The GUI is connected to the Arduino via serial communication, allowing users to monitor the system’s performance and adjust parameters if necessary.
 
 https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Main%20GUI.png?raw=true
 
