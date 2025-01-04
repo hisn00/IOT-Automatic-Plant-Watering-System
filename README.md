@@ -77,7 +77,9 @@ The Python code:
 
 Screenshots and Visuals:
 
-Tinkercad Simulation:
+Tinkercad Simulation:! Description: This screenshot showcases the wiring and components used in the Tinkercad simulation. It includes the Arduino Uno, soil moisture sensor, TMP36 temperature sensor, relay and DC motor providing a visual representation of how everything is connected.
+
+https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Tinkercad%20Simulation.png?raw=true
 
 
 
