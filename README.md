@@ -21,12 +21,12 @@
 ---
 
 ## 🛠️ **Technologies Used**  
-| Tool/Technology       | Logo |  
-|------------------------|------|  
-| **Python**            | ![Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg) |  
-| **Tkinter**           | ![Tkinter](https://upload.wikimedia.org/wikipedia/commons/6/61/Tkinter.png) |  
-| **Arduino IDE**       | ![Arduino](https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg) |  
-| **Tinkercad**         | ![Tinkercad](https://upload.wikimedia.org/wikipedia/commons/a/a4/Tinkercad_Logo.svg) |  
+| Tool/Technology       | Badge |  
+|------------------------|-------|  
+| **Python**            | ![Python](https://img.shields.io/badge/Python-3.9-blue) |  
+| **Tkinter**           | ![Tkinter](https://img.shields.io/badge/Tkinter-3.9-green) |  
+| **Arduino IDE**       | ![Arduino](https://img.shields.io/badge/Arduino-IDE-orange) |  
+| **Tinkercad**         | ![Tinkercad](https://img.shields.io/badge/Tinkercad-Online-blue) |  
 
 ---
 
@@ -66,21 +66,4 @@ Contributions are welcome! Follow these steps:
 
 ## 🏅 **Acknowledgments**  
 - **Tinkercad**: For circuit simulation.  
-- **Python Community**: For supporting developers with rich libraries.  
-- **FontAwesome**: For providing icons and inspiration.  
-
----
-
-## 🌐 **Connect With Me**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/hisnul-mohammed-903a1831b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
-
----
-
-## 📜 **License**  
-This project is licensed under the **MIT License**.  
-
----
-
-**Clone this repo and start monitoring smartly!**  
-```bash
-git clone https://github.com/yourusername/IoT_Water_Monitoring_System.git
+- **
