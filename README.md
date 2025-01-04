@@ -82,8 +82,9 @@ Tinkercad Simulation:! Description: This screenshot showcases the wiring and com
 https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Tinkercad%20Simulation.png?raw=true
 
 
+Circuit Diagram:! Description: This screenshot shows the Tinkercad simulation of the automatic plant watering system. The Arduino Uno is connected to the soil moisture sensor, temperature sensor, and DC motor, which represents the water pump. The system is monitoring the soil moisture and is ready to activate the DC motor when the moisture level is low.
 
-Circuit Diagram:
+https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Components.png?raw=true
 
 
 
