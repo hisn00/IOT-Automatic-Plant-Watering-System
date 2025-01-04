@@ -66,4 +66,21 @@ Contributions are welcome! Follow these steps:
 
 ## 🏅 **Acknowledgments**  
 - **Tinkercad**: For circuit simulation.  
-- **
+- **Python Community**: For supporting developers with rich libraries.  
+- **FontAwesome**: For providing icons and inspiration.  
+
+---
+
+## 🌐 **Connect With Me**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/hisnul-mohammed-903a1831b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
+
+---
+
+## 📜 **License**  
+This project is licensed under the **MIT License**.  
+
+---
+
+**Clone this repo and start monitoring smartly!**  
+```bash
+git clone https://github.com/yourusername/IoT_Water_Monitoring_System.git
