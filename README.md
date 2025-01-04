@@ -72,7 +72,7 @@ Contributions are welcome! Follow these steps:
 ---
 
 ## 🌐 **Connect With Me**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/hisnul-mohammed-903a1831b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/hisnul-mohammed-903a1831b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
 
 ---
 
