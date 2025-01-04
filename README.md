@@ -1,4 +1,4 @@
-# IoT Automatic Plant Watering System
+# IoT Automatic Plant Watering System!
 
 This project demonstrates a smart IoT-based automatic plant watering system that ensures your plants stay hydrated, even when you're away! By utilizing sensors, the system detects soil moisture levels and activates a DC motor to water the plant as needed. The system is powered by an Arduino and is simulated in Tinkercad, allowing for easy testing and modification.
 
@@ -96,7 +96,7 @@ https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Main%20G
 
 ---
 
-Features & Improvements:
+## Features & Improvements:
 
 Real-Time Monitoring: Display real-time soil moisture and temperature data on a GUI interface.
 
@@ -114,7 +114,7 @@ Remote Notifications (Future Work): Implement a notification system to alert the
 
 ---
 
-Future Improvements:
+## Future Improvements:
 
 Smart Notifications: Send alerts to your phone when the soil is dry or the temperature is too high/low.
 
@@ -128,7 +128,7 @@ Machine Learning: Integrate machine learning to adjust watering frequency based 
 
 ---
 
-License:
+## License:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
