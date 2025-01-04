@@ -42,34 +42,7 @@ https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Main%20G
 
 ---
 
-## 🌟 **UI Enhancements**  
-🎨 **Improved GUI**: Now with better color schemes and labels.  
-🌈 **Dynamic Icons**: Interactive icons enhance the interface.  
-🖼️ **Custom Theme**: Makes the UI visually appealing.  
-
----
-
-## 🖼️ **Visual Representation**  
-![User Interface](path_to_gui_screenshot.png)  
-> 📌 The GUI features:  
-- 🟢 **Green for safe levels**  
-- 🔴 **Red for high levels**  
-
----
-
-## 🧩 **Project Structure**  
-```plaintext
-📂 Smart_Temperature_Control  
-├── Arduino_Code.ino       # Arduino script  
-├── GUI_Code.py            # Python Tkinter code  
-├── README.md              # Documentation  
-├── Screenshots/           # Visuals  
-└── LICENSE                # License
-
-
----
-
-🚩 Cool Features to Add
+# 🚩 Cool Features to Add
 
 1. 🛠️ IoT Integration: Control and monitor remotely via cloud apps.
 
@@ -84,7 +57,7 @@ https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Main%20G
 
 ---
 
-🤝 Contributing
+# 🤝 Contributing
 
 🌟 Contributions are welcome!
 
@@ -102,14 +75,14 @@ Submit a pull request!
 
 ---
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
 
 ---
 
-🏆 Acknowledgments
+## 🏆 Acknowledgments
 
 Special thanks to:
 
@@ -123,9 +96,9 @@ Special thanks to:
 
 ---
 
-📣 Stay Connected
+# 📣 Stay Connected
 
-Follow us on:
+Follow me on:
 
 
 
