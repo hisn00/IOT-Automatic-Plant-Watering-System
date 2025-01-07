@@ -7,7 +7,7 @@
 - **🌐 IoT Integration**: Monitor and control water levels from anywhere.  
 - **🤖 Automation**: Smart motor control based on water level thresholds.  
 - **🎨 Intuitive GUI**: User-friendly interface for easy interaction.  
-- **📊 Real-Time Data**: Accurate and dynamic updates on water levels and motor status.  
+- **📊 Real Time Data**: Accurate and dynamic updates on water levels and motor status.  
 
 ---
 
