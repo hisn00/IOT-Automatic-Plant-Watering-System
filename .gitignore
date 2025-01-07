@@ -1,28 +1,21 @@
-# Python-related files
 pycache/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environment
 venv/
 .env/
 
-# IDE/editor-specific files
 .vscode/
 .idea/
 
-# Windows-specific files
 Thumbs.db
 ehthumbs.db
 
-# System files
-.DS_Store  # macOS, you can remove this if you're using Windows
+.DS_Store
 Desktop.ini
 
-# Logs and temporary files
 *.log
 *.tmp
 
-# Other files to ignore
-*.swp  # vim
+*.swp 
