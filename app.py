@@ -21,7 +21,7 @@ except:
 
 def update_gui():
     if ser:
-        ser.write(b"r")  # Send a command to Arduino if needed
+        ser.write(b"r") 
         data = ser.readline().decode().strip()
 
         if data:
