@@ -14,7 +14,7 @@ motor_label.pack(pady=10)
 
 try:
     ser = serial.Serial('COM3', 9600, timeout=1)
-    time.sleep(2)  # Allow time for the connection to establish
+    time.sleep(2) 
 except:
     ser = None
     temp_label.config(text="Serial Connection Failed", fg="red")
@@ -39,7 +39,6 @@ def update_gui():
     root.after(1000, update_gui)
 
 update_gui()
-
 root.mainloop()
 
 
