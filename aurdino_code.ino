@@ -1,22 +1,20 @@
-// Arduino Code to Read Temperature and Control Motor
 #include <DHT.h>
 
-#define DHTPIN 2      // Pin where the DHT sensor is connected
-#define DHTTYPE DHT11 // DHT 11 sensor type
-#define MOTOR_PIN 8   // Pin to control the motor
+#define DHTPIN 2      
+#define DHTTYPE DHT11
+#define MOTOR_PIN 8  
 
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  Serial.begin(9600); // Initialize Serial Monitor
-  dht.begin();        // Start DHT sensor
-  pinMode(MOTOR_PIN, OUTPUT); // Set motor pin as output
+  Serial.begin(9600); 
+  dht.begin();        
+  pinMode(MOTOR_PIN, OUTPUT);
 }
 
 void loop() {
-  float temp = dht.readTemperature(); // Read temperature
+  float temp = dht.readTemperature();
 
-  // Check if sensor reading is valid
   if (isnan(temp)) {
     Serial.println("Failed to read from DHT sensor!");
     return;
@@ -26,16 +24,14 @@ void loop() {
   Serial.print(temp);
   Serial.println(" *C");
 
-  // Motor control based on temperature
   if (temp > 30.0) {
-    digitalWrite(MOTOR_PIN, HIGH); // Turn on motor
+    digitalWrite(MOTOR_PIN, HIGH);
     Serial.println("Motor ON");
   } else {
-    digitalWrite(MOTOR_PIN, LOW); // Turn off motor
+    digitalWrite(MOTOR_PIN, LOW); 
     Serial.println("Motor OFF");
   }
 
-  delay(2000); // Wait 2 seconds before next reading
-}
+  delay(2000);
 
 
