@@ -32,21 +32,18 @@
 
 ## 🌟 **How It Works**  
 1. **Monitor Water Levels**:  
-   - Ultrasonic sensor captures real-time water levels in the tank.  
+   - Ultrasonic sensor captures real time water levels in the tank.  
    - Data is displayed dynamically on the GUI.  
 
 2. **Automated Control**:  
    - Motor turns ON/OFF based on predefined water level thresholds.  
    - Manual control option included in the GUI.  
 
-3. **IoT Connectivity**:  
-   - Future-ready for integration with cloud platforms like Firebase or Blynk for remote monitoring.  
-
 ---
 
 ## 🎉 **Planned Features**  
 1. **Cloud Integration**:  
-   - Real-time monitoring on mobile or desktop through IoT platforms.  
+   - Real time monitoring on mobile or desktop through IoT platforms.  
 2. **Multi-Tank Support**:  
    - Manage multiple tanks simultaneously.  
 3. **Voice Control**:  
