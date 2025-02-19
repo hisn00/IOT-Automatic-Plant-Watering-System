@@ -52,14 +52,9 @@
 ---
 
 ## 🤝 **Contributing**  
-Contributions are welcome! Follow these steps:  
-1. Fork the repo.  
-2. Create a new branch: `git checkout -b feature-branch-name`.  
-3. Commit changes: `git commit -m "Add new feature"`.  
-4. Push to the branch: `git push origin feature-branch-name`.  
-5. Open a pull request!  
+Contributions are welcome!
 
----
+___
 
 ## 🏅 **Acknowledgments**  
 - **Tinkercad**: For circuit simulation.  
