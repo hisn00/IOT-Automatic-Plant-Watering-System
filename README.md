@@ -1,5 +1,5 @@
 # 💧 **IoT Based Automatic Water Monitoring System** 🌍  
-> 🌟 IOT based solution for real time water level monitoring and motor automation using IoT technology.  
+> IOT based water monitoring system 
 
 ---
 
