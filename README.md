@@ -4,10 +4,9 @@
 ---
 
 ## 🚀 **Project Highlights**  
-- **🌐 IoT Integration**: Monitor and control water levels from anywhere.  
-- **🤖 Automation**: Smart motor control based on water level thresholds.  
-- **🎨 Intuitive GUI**: User friendly interface for easy interaction.  
-- **📊 Real Time Data**: Accurate and dynamic updates on water levels and motor status.  
+- Monitor and control water levels from anywhere.  
+- Smart motor control based on water level thresholds.  
+- Updates on water levels and motor status.  
 
 ---
 
@@ -41,25 +40,9 @@
 
 ---
 
-## 🎉 **Planned Features**  
-1. **Cloud Integration**:  
-   - Real time monitoring on mobile or desktop through IoT platforms.  
-2. **Multi-Tank Support**:  
-   - Manage multiple tanks simultaneously.  
-3. **Voice Control**:  
-   - Alexa/Google Assistant integration for motor control.  
-
----
 
 ## 🤝 **Contributing**  
 Contributions are welcome!
-
-___
-
-## 🏅 **Acknowledgments**  
-- **Tinkercad**: For circuit simulation.  
-- **Python Community**: For supporting developers with rich libraries.  
-- **FontAwesome**: For providing icons and inspiration.  
 
 ---
 
@@ -73,7 +56,3 @@ This project is licensed under the **MIT License**.
 
 ---
 
-
-**Clone this repo and start monitoring smartly!**  
-```bash
-git clone https://github.com/hisn00/IOT-Automatic-Plant-Watering-System
