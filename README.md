@@ -3,14 +3,14 @@
 
 ---
 
-## 🚀 **Project Highlights**  
+##  **Project Highlights**  
 - Monitor and control water levels from anywhere.  
 - Smart motor control based on water level thresholds.  
 - Updates on water levels and motor status.  
 
 ---
 
-## 📷 **Screenshots**  
+## **Screenshots**  
 ### Circuit Diagram  
 ![Circuit Diagram](https://github.com/hisn00/IOT-Automatic-Plant-Watering-System/blob/main/Components.png?raw=true)  
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 🛠️ **Technologies Used**  
+##  **Technologies Used**  
 | Tool/Technology       | Badge |  
 |------------------------|-------|  
 | **Python**            | ![Python](https://img.shields.io/badge/Python-3.9-blue) |  
@@ -29,7 +29,7 @@
 
 ---
 
-## 🌟 **How It Works**  
+##  **How It Works**  
 1. **Monitor Water Levels**:  
    - Ultrasonic sensor captures real time water levels in the tank.  
    - Data is displayed dynamically on the GUI.  
