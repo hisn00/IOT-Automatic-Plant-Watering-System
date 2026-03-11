@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - **Rain Detection:** Pause watering during rain using a sensor or weather API to save water.
 - **Fertilizer Dispenser:** Add a second pump to auto distribute liquid fertilizer on schedule.
