@@ -1,4 +1,4 @@
-# 💧 **IoT Based Automatic Water Monitoring System** 🌍  
+# 💧 **IoT Based Automatic Water Monitoring System**  
 > IOT based water monitoring system 
 
 ---
@@ -42,24 +42,18 @@
 
 ## 🚀 Future Improvements
 
-- ☔ **Rain Detection:** Pause watering during rain using a sensor or weather API to save water.
-- 🌿 **Fertilizer Dispenser:** Add a second pump to auto distribute liquid fertilizer on schedule.
-- ☀️ **Solar Powered:** Use solar panels to run the system sustainably.
+- **Rain Detection:** Pause watering during rain using a sensor or weather API to save water.
+- **Fertilizer Dispenser:** Add a second pump to auto distribute liquid fertilizer on schedule.
+- **Solar Powered:** Use solar panels to run the system sustainably.
 
 ___
 
-## 🤝 **Contributing**  
+## **Contributing**  
 Contributions are welcome!
 
 ---
 
-## 🌐 **Connect With Me**  
+## **Connect With Me**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/hisnul-mohammed-903a1831b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
 
 ---
-
-## 📜 **License**  
-This project is licensed under the **MIT License**.  
-
----
-
