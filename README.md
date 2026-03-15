@@ -1,4 +1,4 @@
-# 💧 **IoT Based Automatic Water Monitoring System**  
+# **IoT Based Automatic Water Monitoring System**  
 > IOT based water monitoring system 
 
 ---
